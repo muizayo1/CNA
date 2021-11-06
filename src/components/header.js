@@ -20,16 +20,14 @@ const Header = ({ history, dimensions }) => {
       closeMenu();
     }
   });
-   const Log = {
-     alternative: cna
-   }
+   
   return (
     <div className='header'>
       <div className='container'>
         <div className='row v-center space-between'>
           <div className='logo'>
             <NavLink to='/' exact>
-              <img src={Logo} alt={Log.alternative} />
+              <img src={Logo} />
             </NavLink>
           </div>
           <div className='nav-toggle'>
